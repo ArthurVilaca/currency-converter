@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+
+.Title {
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.History,
+.ConvertedValue,
+.Button,
+.Conversor {
+  padding: 10px;
+}

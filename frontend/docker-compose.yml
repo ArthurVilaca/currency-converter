@@ -1,0 +1,15 @@
+version: '3.3'
+services:
+  frontend:
+    build: .
+    image: currency_converter-frontend
+    container_name: frontend
+    command: npm start
+    volumes:
+      - ./:/app/frontend
+    ports:
+      - '3000:3000'
+    stdin_open: true
+networks:
+  default:
+    driver: bridge
